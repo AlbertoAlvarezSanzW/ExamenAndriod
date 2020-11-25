@@ -13,6 +13,9 @@ sigue en la 2 hoja
  */
 
 class MainActivity : AppCompatActivity() {
+
+    companion object{const val variableCompartida="variableEstatica"}
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -27,8 +30,10 @@ class MainActivity : AppCompatActivity() {
         // damos funcionalidad al usuario:
         boton.setOnClickListener{
             val intent = Intent(this,segundaActividad::class.java)
-
+            intent.putExtra(variableCompartida,1)
         }
+
+
 
     }
 }
