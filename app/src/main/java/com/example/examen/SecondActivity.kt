@@ -12,7 +12,7 @@ class SecondActivity : AppCompatActivity()  {
     companion object{const val variableCompartida="variableEstatica"}
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.segundaactividad)
+        setContentView(R.layout.layout2)
 
         // tenemos que recibirlo con una constante que es val
         val number = 0
