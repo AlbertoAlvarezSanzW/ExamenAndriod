@@ -17,16 +17,10 @@ class SecondActivity : AppCompatActivity()  {
         // tenemos que recibirlo con una constante que es val
         val number = 0
         val variable = intent.getIntExtra(variableCompartida,number)
-        val texto = findViewById<TextView>(R.id.textView2)
-        // esto es asi, xq es asi y .
-        variable?.let {
-            texto.text = variable.toString()
-        }
 
-        val textView = findViewById<TextView>(R.id.textView2)
-        val boton1 = findViewById<Button>(R.id.boton1)
-        val boton2 = findViewById<Button>(R.id.boton2)
-        val boton3 = findViewById<Button>(R.id.boton3)
+
+
+
 
 
 

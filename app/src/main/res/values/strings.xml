@@ -3,4 +3,7 @@
     <string name="dar_tamanio">Dar tamaño</string>
     <string name="ordena_por_tamanio">Ordena por Tamaño</string>
     <string name="filtrar_por_tamanio">Filtrar por tamaño</string>
+    <string name="dar_tamanio1">Dar Tamaño</string>
+    <string name="ordenar_por_tamanio">Ordenar por tamaño</string>
+    <string name="filtrar_tamanio">Filtrar por tamaño</string>
 </resources>
